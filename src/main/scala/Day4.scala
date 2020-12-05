@@ -4,7 +4,6 @@ object Day4 {
       inputs.span(_.head != "") match
         case (head, _ :: tail) => head.flatten :: group(tail)
         case (head, Nil) => head.flatten :: Nil
-        case (Nil, Nil) => Nil
     }
     group(inputs.map(_.split(" ")))
         .map(p => p.map {
