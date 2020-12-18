@@ -7,7 +7,7 @@ object Main {
     val input = source.getLines().toList
     source.close()
     
-    val output = Day17.solve(input);
+    val output = Day17.solve2(input);
     println(output);
   }
 
