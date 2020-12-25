@@ -19,7 +19,7 @@
 | 15  | [Day15.scala](src/main/scala/Day15.scala) |
 | 16  | [Day16.scala](src/main/scala/Day16.scala) |
 | 17  | [Day17.scala](src/main/scala/Day17.scala) |
-| 18  | [Day18.scala](src/main/scala/Day18.scala) |
+| 18  | [Day18.scala](day18/src/main/scala/Day18.scala) |
 | 19  | [Day19.scala](src/main/scala/Day19.scala) |
 | 20  | [Day20.scala](src/main/scala/Day20.scala) |
 | 21  | [Day21.scala](src/main/scala/Day21.scala) |
