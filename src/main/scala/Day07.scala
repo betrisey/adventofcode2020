@@ -1,4 +1,4 @@
-object Day7 {
+object Day07 {
   def parseRule(rule: String): (String, Set[(Int, String)]) = {
     var Array(h, t) = rule.split(" bags contain ")
     val format = raw"(\d+) ([a-z]+ [a-z]+) bags?".r

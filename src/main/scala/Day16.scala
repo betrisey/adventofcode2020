@@ -3,7 +3,7 @@ object Day16 {
     val format = raw".*: (\d+)-(\d+) or (\d+)-(\d+)".r
       field match
         case format(start1, end1, start2, end2) =>
-          ((start1.toInt to end1.toInt) union (start2.toInt to end2.toInt)).distinct.toList
+          ((start1.toInt to end1.toInt) concat (start2.toInt to end2.toInt)).distinct.toList
   }
 
   def solve(inputs: List[String]): String = {

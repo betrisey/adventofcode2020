@@ -1,4 +1,4 @@
-object Day8 {
+object Day08 {
   sealed trait Instruction
   case class Nop(i: Int) extends Instruction
   case class Acc(i: Int) extends Instruction

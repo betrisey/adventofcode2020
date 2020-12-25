@@ -1,4 +1,4 @@
-object Day9 {
+object Day09 {
   def solve(inputs: List[String]): String = {
     val numbers = inputs.map(_.toLong)
     

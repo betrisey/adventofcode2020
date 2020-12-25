@@ -1,4 +1,4 @@
-object Day2 {
+object Day02 {
   def solve(inputs: List[String]): String = {
     val format = raw"(\d+)-(\d+) ([a-z]): ([a-z]+)".r
     def isValid(input: String): Boolean = {

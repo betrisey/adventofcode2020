@@ -1,4 +1,4 @@
-object Day4 {
+object Day04 {
   def parsePassports(inputs: List[String]): List[Map[String, String]] = {
     def group(inputs: List[Array[String]]): List[List[String]] = {
       inputs.span(_.head != "") match

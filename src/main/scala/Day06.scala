@@ -1,4 +1,4 @@
-object Day6 {
+object Day06 {
   def parseGroups(inputs: List[String]): List[List[Set[Char]]] = {
     def group(inputs: List[Set[Char]]): List[List[Set[Char]]] = {
       inputs.span(_.nonEmpty) match

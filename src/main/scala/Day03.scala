@@ -1,4 +1,4 @@
-object Day3 {
+object Day03 {
   def solve(inputs: List[String]): String = {
     inputs.zipWithIndex.count {
       case (s, i) => s.charAt((3*i) % s.length) == '#'

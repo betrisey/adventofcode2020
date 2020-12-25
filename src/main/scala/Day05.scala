@@ -1,4 +1,4 @@
-object Day5 {
+object Day05 {
   def parseID(id: String): Int = {
     Integer.parseInt(id.replace("F", "0")
                        .replace("B", "1")

@@ -1,4 +1,4 @@
-object Day1 {
+object Day01 {
   def solve(input: List[String]): String = {
     val ints = input.map(_.toInt).zipWithIndex
     (for {
